@@ -39,7 +39,7 @@ nav,
 nav {
   justify-content: space-around;
   align-items: center;
-  height: 17vh;
+  height: 16vh;
 }
 
 .nav-links {
@@ -170,6 +170,8 @@ section {
   justify-content: center;
   gap: 5rem;
   height: 80vh;
+  margin: 0;
+  background: #36454F;
 }
 
 .section__pic-container {
@@ -177,6 +179,14 @@ section {
   height: 400px;
   width: 400px;
   margin: auto 0;
+}
+
+.text-white-smoke {
+  color: whitesmoke
+}
+
+.text-white-f8 {
+  color: #f8f8f8
 }
 
 .section__text {
@@ -235,7 +245,7 @@ section {
 
 .btn-color-1,
 .btn-color-2 {
-  border: rgb(53, 53, 53) 0.1rem solid;
+  border: rgb(53, 53, 53) 0.05rem solid;
 }
 
 .btn-color-1:hover,
@@ -253,12 +263,9 @@ section {
   background: rgb(0, 0, 0);
 }
 
-.btn-color-2 {
-  background: none;
-}
-
 .btn-color-2:hover {
-  border: rgb(255, 255, 255) 0.1rem solid;
+  border: rgb(255, 255, 255) 0.05rem solid;
+  background-color: #36454F;
 }
 
 .btn-container {
@@ -319,9 +326,11 @@ section {
 }
 
 /* EXPERIENCE SECTION */
-
 #experience {
   position: relative;
+  margin: 0;
+  background-color: #36454F;
+  height: 80vh;
 }
 
 .experience-sub-title {
@@ -331,9 +340,17 @@ section {
   margin-bottom: 2rem;
 }
 
-.experience-details-container {
+.experience-containers {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
   display: flex;
-  justify-content: center;
+}
+
+.experience-details-container {
+  padding: 1rem 4rem;
+  display: flex;
+  justify-content: space-around;
   flex-direction: column;
 }
 
@@ -428,9 +445,22 @@ article .icon {
 
 footer {
   height: 26vh;
-  margin: 0 1rem;
+  margin: 0;
+  background: #28282B;
+}
+
+footer a {
+  color: #FAF9F6
+}
+
+footer a:hover {
+  color: #fff;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(181, 181, 181);
 }
 
 footer p {
   text-align: center;
+  color: #FAF9F6;
 }
