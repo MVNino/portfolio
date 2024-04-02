@@ -1,3 +1,13 @@
+@media screen and (min-width: 1800px) {
+  .article-container {
+    padding: 2rem;
+  }
+
+  #experience {
+    max-height: 70vh;
+  }
+}
+
 @media screen and (max-width: 1400px) {
   #profile {
     height: 83vh;
@@ -47,57 +57,110 @@
   }
 }
 
-@media screen and (max-width: 600px) {
-  #contact,
-  footer {
-    height: 40vh;
+@media screen and (max-width: 1000px) {
+  .experience-containers {
+    flex-wrap: wrap;
   }
+
+  #experience {
+    height: 110vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  /* PROFILE SECTION */
   #profile {
     height: 83vh;
     margin-bottom: 0;
   }
+
   article {
     font-size: 1rem;
   }
+
   footer nav {
     height: fit-content;
     margin-bottom: 2rem;
   }
+
   .about-containers,
   .contact-info-upper-container,
   .btn-container {
     flex-wrap: wrap;
   }
-  .contact-info-container {
-    margin: 0;
-  }
-  .contact-info-container p,
-  .nav-links li a {
-    font-size: 1rem;
-  }
-  .experience-sub-title {
-    font-size: 1.25rem;
-  }
+
   .logo {
     font-size: 1.5rem;
   }
+
   .nav-links {
     flex-direction: column;
     gap: 0.5rem;
     text-align: center;
   }
+
   .section__pic-container {
     width: auto;
     height: 46vw;
     justify-content: center;
   }
+
   .section__text__p2 {
     font-size: 1.25rem;
   }
+
   .title {
     font-size: 2rem;
   }
+
   .text-container {
     text-align: justify;
+  }
+
+  /* EXPERIENCE SECTION */
+  .experience-containers {
+    flex-wrap: wrap;
+  }
+
+  #experience {
+    height: 110vh;
+  }
+
+  .experience-sub-title {
+    font-size: 1.25rem;
+  }
+  /* PROJECTS SECTION */
+  .project-containers {
+    margin: 0;
+    display: inline-block;
+  }
+
+  .project-containers > .details-container {
+    margin-bottom: 2rem;
+  }
+
+  /* CONTACT SECTION */
+  #contact {
+    height: 40vh;
+  }
+
+  .contact-info-upper-container {
+    padding: 3rem;
+    display: inline-block;
+  }
+
+  .contact-info-container {
+    margin: 0;
+  }
+
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
+
+  /* FOOTER SECTION */
+  footer {
+    max-height: 28vh;
+    padding: 2rem;
   }
 }
