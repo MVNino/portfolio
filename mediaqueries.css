@@ -166,11 +166,20 @@
 }
 
 @media screen and (max-width: 480px) {
-  /* EXPERIENCE SECTION */
-  #experience {
-    height: 250vh;
+  /* NAVBAR SECTION */
+  #hamburger-nav {
+    height: 11vh;
   }
 
+  /* EXPERIENCE SECTION */
+  #experience {
+    height: 235vh;
+  }
+
+  .details-container {
+    max-width: 100%;
+  }
+  
   /* CONTACT SECTION */
   #contact {
     height: 50vh;

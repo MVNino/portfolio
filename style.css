@@ -61,8 +61,17 @@ a:hover {
   text-decoration-color: rgb(181, 181, 181);
 }
 
-.logo {
-  font-size: 2rem;
+.desktop-logo img {
+  border-radius: 5%;
+  width: 6rem;
+  height: 5rem;
+}
+
+.hamburger-logo img {
+  border-radius: 5%;
+  width: 4rem;
+  height: 3rem;
+  margin-top: 1rem;
 }
 
 .logo:hover {
@@ -78,6 +87,7 @@ a:hover {
 .hamburger-menu {
   position: relative;
   display: inline-block;
+  margin-top: 1rem;
 }
 
 .hamburger-icon {
