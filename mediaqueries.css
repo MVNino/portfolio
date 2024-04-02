@@ -164,3 +164,15 @@
     padding: 2rem;
   }
 }
+
+@media screen and (max-width: 480px) {
+  /* EXPERIENCE SECTION */
+  #experience {
+    height: 250vh;
+  }
+
+  /* CONTACT SECTION */
+  #contact {
+    height: 50vh;
+  } 
+}
