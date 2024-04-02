@@ -276,6 +276,7 @@ section {
 
 #about {
   position: relative;
+  padding-top: 8vh;
 }
 
 .about-containers {
@@ -316,7 +317,7 @@ section {
 
 .section-container {
   gap: 4rem;
-  height: 80%;
+  height: 65%;
 }
 
 /* EXPERIENCE SECTION */
@@ -371,6 +372,7 @@ article .icon {
 /* PROJECTS SECTION */
 #projects {
   position: relative;
+  padding-top: 8vh;
 }
 
 .color-container {
