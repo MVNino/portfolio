@@ -321,7 +321,7 @@ section {
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
+  border-color: rgb(199, 199, 199);
   text-align: center;
 }
 
@@ -488,4 +488,13 @@ footer a:hover {
 footer p {
   text-align: center;
   color: #faf9f6;
+}
+
+/* UTILITIES */
+.card-shadow {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.mt-3 {
+  margin-top: 3rem;
 }
