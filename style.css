@@ -383,6 +383,7 @@ article .icon {
 #projects {
   position: relative;
   padding-top: 8vh;
+  height: 190vh;
 }
 
 .color-container {
@@ -392,9 +393,22 @@ article .icon {
 
 .project-containers {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 2rem;
-  margin-bottom: 2rem;
   margin-top: 2rem;
+  margin-bottom: 100vh;
+}
+
+.project-details-container {
+  padding: 1.5rem;
+  flex-basis: 26%;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(199, 199, 199);
+  text-align: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .project-img {
@@ -414,12 +428,11 @@ article .icon {
 }
 
 /* CONTACT */
-
 #contact {
   display: flex;
-  justify-content: center;
+  justify-items: center;
   flex-direction: column;
-  height: 70vh;
+  height: auto;
 }
 
 .contact-info-upper-container {
