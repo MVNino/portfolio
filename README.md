@@ -1,7 +1,5 @@
 # Portfolio README
 
-## Portfolio Description
-
 Welcome to my portfolio! This collection showcases my work, skills, and experiences in Web Development.
 
 ## Navigation
